@@ -18,6 +18,7 @@ def main(inPath, outPath):
         fNameEnding = "_new"
     else:
         fNameEnding = "";
+        os.makedirs(outPath, exist_ok=True)
 
     # search directory for all files that end with ".TextGrid"
     tGrids = [fn for fn in os.listdir(inPath) if fn.endswith(".TextGrid")];
