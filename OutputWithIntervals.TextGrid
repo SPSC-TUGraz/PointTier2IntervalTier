@@ -1,0 +1,176 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 2.324000000000069
+tiers? <exists>
+size = 4
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "orthography"
+		xmin = 0.0
+		xmax = 2.324000000000069
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.49900000000002365
+			text = ""
+		intervals [2]:
+			xmin = 0.49900000000002365
+			xmax = 1.8230000000000928
+			text = "nein er kann schon König [ werden ]"
+		intervals [3]:
+			xmin = 1.8230000000000928
+			xmax = 2.324000000000069
+			text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 2.324000000000069
+		intervals: size = 18
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.516322819628035
+			text = "SIL"
+		intervals [2]:
+			xmin = 0.516322819628035
+			xmax = 0.5510357474452903
+			text = "n"
+		intervals [3]:
+			xmin = 0.5510357474452903
+			xmax = 0.61099999999999
+			text = "a"
+		intervals [4]:
+			xmin = 0.61099999999999
+			xmax = 0.6490000000000009
+			text = "e6"
+		intervals [5]:
+			xmin = 0.6490000000000009
+			xmax = 0.7760000000000673
+			text = "k"
+		intervals [6]:
+			xmin = 0.7760000000000673
+			xmax = 0.9039999999999964
+			text = "a"
+		intervals [7]:
+			xmin = 0.9039999999999964
+			xmax = 0.9339999999999691
+			text = "n"
+		intervals [8]:
+			xmin = 0.9339999999999691
+			xmax = 0.9640000000000555
+			text = "S"
+		intervals [9]:
+			xmin = 0.9640000000000555
+			xmax = 1.0389999999999873
+			text = "o"
+		intervals [10]:
+			xmin = 1.0389999999999873
+			xmax = 1.0760000000000218
+			text = "n"
+		intervals [11]:
+			xmin = 1.0760000000000218
+			xmax = 1.122000000000071
+			text = "k"
+		intervals [12]:
+			xmin = 1.122000000000071
+			xmax = 1.2340000000000373
+			text = "2"
+		intervals [13]:
+			xmin = 1.2340000000000373
+			xmax = 1.2789999999999964
+			text = "n"
+		intervals [14]:
+			xmin = 1.2789999999999964
+			xmax = 1.3540000000000418
+			text = "I"
+		intervals [15]:
+			xmin = 1.3540000000000418
+			xmax = 1.4220000000000255
+			text = "v"
+		intervals [16]:
+			xmin = 1.4220000000000255
+			xmax = 1.497000000000071
+			text = "e6"
+		intervals [17]:
+			xmin = 1.497000000000071
+			xmax = 1.5640000000000782
+			text = "n"
+		intervals [18]:
+			xmin = 1.5640000000000782
+			xmax = 2.324000000000069
+			text = "SIL"
+	item [3]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 2.324000000000069
+		intervals: size = 8
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.516322819628035
+			text = ""
+		intervals [2]:
+			xmin = 0.516322819628035
+			xmax = 0.61099999999999
+			text = "nein"
+		intervals [3]:
+			xmin = 0.61099999999999
+			xmax = 0.6490000000000009
+			text = "er"
+		intervals [4]:
+			xmin = 0.6490000000000009
+			xmax = 0.9339999999999691
+			text = "kann"
+		intervals [5]:
+			xmin = 0.9339999999999691
+			xmax = 1.0760000000000218
+			text = "schon"
+		intervals [6]:
+			xmin = 1.0760000000000218
+			xmax = 1.3540000000000418
+			text = "könig"
+		intervals [7]:
+			xmin = 1.3540000000000418
+			xmax = 1.5640000000000782
+			text = "werden"
+		intervals [8]:
+			xmin = 1.5640000000000782
+			xmax = 2.324000000000069
+			text = ""
+	item [4]:
+		class = "IntervalTier"
+		name = "points"
+		xmin = 0.0
+		xmax = 2.324000000000069
+		intervals: size = 7
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.516322819628035
+			text = ""
+		intervals [2]:
+			xmin = 0.516322819628035
+			xmax = 1.5640000000000782
+			text = ""
+		intervals [3]:
+			xmin = 0.516322819628035
+			xmax = 0.516322819628035
+			text = "s"
+		intervals [4]:
+			xmin = 1.5640000000000782
+			xmax = 1.8230000000000928
+			text = ""
+		intervals [5]:
+			xmin = 1.5640000000000782
+			xmax = 1.5640000000000782
+			text = "e"
+		intervals [6]:
+			xmin = 1.8230000000000928
+			xmax = 1.8230000000000928
+			text = ""
+		intervals [7]:
+			xmin = 1.8230000000000928
+			xmax = 2.324000000000069
+			text = ""
