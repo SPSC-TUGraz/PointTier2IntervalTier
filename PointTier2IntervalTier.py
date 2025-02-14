@@ -1,11 +1,13 @@
 """
 Convert PointTier with Points into IntervalTier with Intervals of length zero.
 They look broken in Praat but should be processable with Python.
+author: Saskia Wepner
+date: 2022-November-15
 """
 import os
 import tgt
 
-inputPath = "C:/Users/kia/Nextcloud2/BesprechungsordnerAnnelieseSaskia/AgreementStudie/PointTier"
+inputPath = "path/to/TextGrid/with/PointTier"
 # leave outputPath empty if you want to use the same directory for saving; file is renamed then.
 outputPath = ""
 
