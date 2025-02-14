@@ -1,19 +1,21 @@
 """
-Convert PointTier with Points into IntervalTier with Intervals of length zero.
-They look broken in Praat but should be processable with Python.
+Convert PointTier with Points into IntervalTier with Intervals of length zero (= set interval boundary).
+They look broken in Praat but are processable in Python or in a regular text editor (e.g. for accessing the content of
+the points after conversion). The
+
 author: Saskia Wepner
 date: 2022-November-15
 """
 import os
 import tgt
 
-inputPath = "path/to/TextGrid/with/PointTier"
+inputPath = os.getcwd()
 # leave outputPath empty if you want to use the same directory for saving; file is renamed then.
 outputPath = ""
 
 
-def main(inPath, outPath):
-
+def convert_TextGrids(inPath, outPath):
+    """Read in files, convert PointTiers and save to new TextGrid."""
     # set output path if necessary
     if not outPath:
         outPath = inPath;
@@ -40,6 +42,9 @@ def main(inPath, outPath):
                 for annotation in tier.annotations:
                     annotations.append(tgt.Interval(start_time=annotation.start_time, end_time=annotation.end_time,
                                                     text=annotation.text));
+                # add last boundary (will be invisible in praat otherwise)
+                annotations.append(tgt.Interval(start_time=annotation.start_time, end_time=tier.end_time,
+                                                text=""));
                 # create new Interval(!)Tier
                 tierNew = tgt.IntervalTier(start_time=tier.start_time, end_time=tier.end_time, name=tier.name,
                                            objects=annotations);
@@ -54,5 +59,5 @@ def main(inPath, outPath):
 
 
 if __name__ == '__main__':
-    main(inputPath, outputPath)
+    convert_TextGrids(inputPath, outputPath)
 
